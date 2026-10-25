@@ -1,68 +1,51 @@
-# Credit Card Fraud Detection & Risk Analytics
+# 💳 Credit Card Fraud Detection Using ANN
 
-## Project Overview
-This project explores credit card transaction data to identify potentially fraudulent transactions using machine learning. It combines data analysis, model evaluation, and business-focused risk visualisation.
+## 📌 Project Overview
+This project focuses on identifying potentially fraudulent credit card transactions using machine learning techniques and Artificial Neural Networks (ANN). The goal is to analyze transaction data and evaluate a model's ability to distinguish fraudulent transactions from legitimate ones.
 
-## Business Problem
-Credit card fraud is a highly imbalanced classification problem. The objective is to identify suspicious transactions while reducing missed fraud cases and unnecessary false alerts.
+## 🎯 Objectives
+- Analyze credit card transaction data.
+- Perform data preprocessing and exploratory data analysis.
+- Develop a fraud detection classification model.
+- Evaluate performance using classification metrics.
+- Explore fraud patterns through data visualization.
 
-## Project Objectives
-- Analyse transaction and fraud patterns.
-- Prepare transaction data for machine learning.
-- Explore classification techniques for fraud detection.
-- Evaluate models using Precision, Recall, F1-score, Confusion Matrix, and ROC-AUC.
-- Present useful business insights through a Power BI dashboard.
-
-## Tools & Technologies
+## 🛠️ Technologies Used
 - Python
 - Pandas and NumPy
 - Scikit-learn
-- Artificial Neural Networks (ANN)
-- SQL
+- Matplotlib and Seaborn
+- Artificial Neural Network (ANN)
 - Power BI
-- Jupyter Notebook / Google Colab
 
-## Repository Files
-| File | Description |
-|---|---|
-| `fraud_dashboard.pbix` | Power BI dashboard file |
-| `requirements.txt` | Python package requirements |
-| `README.md` | Project documentation |
-| `.gitignore` | Files excluded from Git tracking |
+## 🔄 Project Workflow
+1. Data loading and exploration
+2. Data preprocessing
+3. Exploratory data analysis
+4. Model development
+5. Model evaluation
+6. Results interpretation
 
-## Project Workflow
-1. Load and inspect the transaction dataset.
-2. Clean and prepare the data.
-3. Explore class imbalance and transaction patterns.
-4. Train and evaluate the implemented machine-learning model(s).
-5. Review classification metrics.
-6. Present findings through Power BI visualisations.
+## 📁 Project Files
+- `Credit_Card_Fraud_Detection.ipynb` — Analysis and model notebook
+- `credit_card_fraud_detection.ipynb` — Additional notebook
+- `fraud_dashboard.pbix` — Power BI dashboard
+- `requirements.txt` — Python dependencies
 
-## Model Evaluation
-Fraud detection requires more than accuracy because fraudulent transactions may represent a small fraction of all records. Precision, Recall, F1-score, the Confusion Matrix, and ROC-AUC provide a more informative evaluation.
+## 📊 Evaluation Metrics
+Precision, recall, F1-score, confusion matrix and ROC-AUC can be used to evaluate fraud detection performance, depending on the metrics implemented in the notebook.
 
-**Verified model results:** Add the metrics produced by your actual notebook here. Do not enter estimated or unverified scores.
+## 🚀 How to Run
+1. Download or clone the repository.
+2. Open the notebook in Google Colab or Jupyter Notebook.
+3. Upload the required dataset.
+4. Install the required dependencies.
+5. Run the notebook cells in order.
+6. Review the model results and visualizations.
 
-## Power BI Dashboard
-The repository includes `fraud_dashboard.pbix`. Open it using Microsoft Power BI Desktop to inspect the available dashboard pages and visualisations.
+## ⚠️ Disclaimer
+This project is for educational purposes. Model predictions are not definitive proof of fraud.
 
-*Add a dashboard screenshot here when available.*
-
-## Limitations
-- Results depend on the quality and representativeness of the dataset.
-- Class imbalance can affect model evaluation.
-- A predicted transaction risk is not definitive proof of fraud.
-- Performance should be validated on unseen data before practical use.
-
-## Future Improvements
-- Compare additional classification algorithms.
-- Improve model explainability.
-- Add more detailed fraud-pattern analysis.
-- Enhance the dashboard with additional business KPIs.
-
-## Author
+## 👩‍💻 Author
 **Kirti Rajput**  
-MBA — Data Science & Artificial Intelligence
-
-## Academic Use
-This project is developed for academic learning and portfolio demonstration.
+MBA Candidate in Data Science & AI
