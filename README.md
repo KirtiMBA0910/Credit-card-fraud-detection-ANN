@@ -1,76 +1,68 @@
 # Credit Card Fraud Detection & Risk Analytics
 
 ## Project Overview
-This project analyzes credit card transactions and builds machine-learning models to identify potentially fraudulent transactions.
+This project explores credit card transaction data to identify potentially fraudulent transactions using machine learning. It combines data analysis, model evaluation, and business-focused risk visualisation.
 
 ## Business Problem
-Credit card fraud is a highly imbalanced classification problem. The goal is to detect fraudulent transactions while reducing missed fraud cases and unnecessary false alerts.
+Credit card fraud is a highly imbalanced classification problem. The objective is to identify suspicious transactions while reducing missed fraud cases and unnecessary false alerts.
 
-## Objectives
-- Analyze transaction and fraud patterns
-- Handle severe class imbalance
-- Build Logistic Regression and Random Forest models
-- Evaluate models using Precision, Recall, F1-score and ROC-AUC
-- Identify important predictive features
-- Prepare business metrics for Power BI
-- Perform SQL-based fraud analysis
+## Project Objectives
+- Analyse transaction and fraud patterns.
+- Prepare transaction data for machine learning.
+- Explore classification techniques for fraud detection.
+- Evaluate models using Precision, Recall, F1-score, Confusion Matrix, and ROC-AUC.
+- Present useful business insights through a Power BI dashboard.
 
-## Dataset
-The project uses the Kaggle Credit Card Fraud Detection dataset containing 284,807 transactions and 492 fraud cases.
-
-## Technologies
+## Tools & Technologies
 - Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
+- Pandas and NumPy
 - Scikit-learn
+- Artificial Neural Networks (ANN)
 - SQL
 - Power BI
-- GitHub
+- Jupyter Notebook / Google Colab
 
-## Project Structure
-```text
-Credit-Card-Fraud-Detection/
-├── data/
-│   └── creditcard.csv
-├── src/
-│   └── fraud_detection.py
-├── sql/
-│   └── fraud_analysis.sql
-├── notebooks/
-├── dashboard/
-├── images/
-├── outputs/
-├── requirements.txt
-└── README.md
-```
+## Repository Files
+| File | Description |
+|---|---|
+| `fraud_dashboard.pbix` | Power BI dashboard file |
+| `requirements.txt` | Python package requirements |
+| `README.md` | Project documentation |
+| `.gitignore` | Files excluded from Git tracking |
 
-## How to Run in VS Code
+## Project Workflow
+1. Load and inspect the transaction dataset.
+2. Clean and prepare the data.
+3. Explore class imbalance and transaction patterns.
+4. Train and evaluate the implemented machine-learning model(s).
+5. Review classification metrics.
+6. Present findings through Power BI visualisations.
 
-1. Open this folder in VS Code.
-2. Open the VS Code terminal.
-3. Create a virtual environment:
-   `python -m venv venv`
-4. Activate it on Windows PowerShell:
-   `.env\Scripts\Activate.ps1`
-5. Install packages:
-   `pip install -r requirements.txt`
-6. Run:
-   `python src/fraud_detection.py`
+## Model Evaluation
+Fraud detection requires more than accuracy because fraudulent transactions may represent a small fraction of all records. Precision, Recall, F1-score, the Confusion Matrix, and ROC-AUC provide a more informative evaluation.
 
-The script creates charts in `images/` and analysis files in `outputs/`.
+**Verified model results:** Add the metrics produced by your actual notebook here. Do not enter estimated or unverified scores.
 
-## Important Metrics
-For fraud detection, accuracy alone is not sufficient because the dataset is highly imbalanced. The project focuses on:
-- Precision
-- Recall
-- F1-score
-- ROC-AUC
-- Confusion Matrix
+## Power BI Dashboard
+The repository includes `fraud_dashboard.pbix`. Open it using Microsoft Power BI Desktop to inspect the available dashboard pages and visualisations.
 
-## Resume Project Title
-**Credit Card Fraud Detection & Risk Analytics**
+*Add a dashboard screenshot here when available.*
 
-## Resume Description
-Developed a machine-learning based credit card fraud detection project using Python and Scikit-learn; performed exploratory data analysis, addressed class imbalance, compared Logistic Regression and Random Forest models using Precision, Recall, F1-score and ROC-AUC, and prepared fraud-risk metrics for Power BI.
+## Limitations
+- Results depend on the quality and representativeness of the dataset.
+- Class imbalance can affect model evaluation.
+- A predicted transaction risk is not definitive proof of fraud.
+- Performance should be validated on unseen data before practical use.
+
+## Future Improvements
+- Compare additional classification algorithms.
+- Improve model explainability.
+- Add more detailed fraud-pattern analysis.
+- Enhance the dashboard with additional business KPIs.
+
+## Author
+**Kirti Rajput**  
+MBA — Data Science & Artificial Intelligence
+
+## Academic Use
+This project is developed for academic learning and portfolio demonstration.
