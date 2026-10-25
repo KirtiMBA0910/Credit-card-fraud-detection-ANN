@@ -49,3 +49,25 @@ This project is for educational purposes. Model predictions are not definitive p
 ## 👩‍💻 Author
 **Kirti Rajput**  
 MBA Candidate in Data Science & AI
+## 📊 Project Visualizations
+
+### 1. Fraud vs. Genuine Transactions
+![Fraud vs Genuine Transactions](images/01_fraud_vs_genuine.png)
+
+### 2. Transaction Amount Distribution
+![Transaction Amount Distribution](images/02_amount_by_class.png)
+
+### 3. Transaction Time Analysis
+![Transaction Time Analysis](images/03_transaction_time.png)
+
+### 4. Feature Correlation Heatmap
+![Feature Correlation Heatmap](images/04_correlation_heatmap.png)
+
+### 5. Random Forest Feature Importance
+![Random Forest Feature Importance](images/05_random_forest_feature_importance.png)
+
+### 6. ROC Curve
+![ROC Curve](images/06_roc_curve.png)
+
+### 7. Feature Importance
+![Feature Importance](images/07_feature_importance.png)
